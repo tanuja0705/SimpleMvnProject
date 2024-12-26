@@ -88,6 +88,14 @@
     	<version>5.2.3</version>
 	</dependency>
 	
+	<!-- https://mvnrepository.com/artifact/org.apache.maven.plugin-tools/maven-plugin-annotations -->
+	<dependency>
+    	<groupId>org.apache.maven.plugin-tools</groupId>
+    	<artifactId>maven-plugin-annotations</artifactId>
+   		 <version>3.15.1</version>
+	</dependency>
+
+
 	<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
@@ -124,7 +132,6 @@
     	<artifactId>json-simple</artifactId>
     	<version>1.1.1</version>
 	</dependency>
-
   </dependencies>
-
+	
 </project>
